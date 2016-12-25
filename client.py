@@ -3,8 +3,8 @@
 import socket               # Import socket module
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)         # Create a socket object
-host = 103.74.18.61 # Get server ip
-port = 4444                # Reserve a port for your service.
+host = socket.gethostname() # Get server ip
+port = 4447                # Reserve a port for your service.
 
 s.connect((host, port))
 
@@ -12,7 +12,10 @@ s.connect((host, port))
 
 while True:
    print s.recv(1024)
-   s.send(raw_input("> "))
+   #s.send(raw_input("> "))
+   while 1:
+    s.send(raw_input("> ").encode())
+    print s.recv(1024)
 
 
-s.close                     # Close the socket when done
+s.close()                     # Close the socket when done
