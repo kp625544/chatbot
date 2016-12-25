@@ -3,7 +3,7 @@ import os
 import socket
 
 bot = aiml.Kernel();
-bot.setBotPredicate('name', 'Pedro')
+bot.setBotPredicate('name', 'suchaku')
 bot.setBotPredicate('master', 'Hydra')
 bot.learn("std-startup.xml")
 bot.respond("load aiml b")
