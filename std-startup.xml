@@ -1,48 +1,62 @@
-<aiml version="1.0.1" encoding="UTF-8">
-    <!-- std-startup.xml -->
+<aiml version="1.0">
 
-    <!-- Category is an atomic AIML unit -->
-    <category>
+<!-- This category works with the standard AIML Set -->
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
 
-        <!-- Pattern to match in user input -->
-        <!-- If user enters "LOAD AIML B" -->
-        <pattern>LOAD AIML B</pattern>
+<!-- Load standard AIML set -->
+<learn>aiml/basic.aiml</learn>
+<learn>aiml/calendar.aiml</learn>
+<learn>aiml/shutup.aiml</learn>
+<learn>aiml/onthisday.aiml</learn>
+<learn>aiml/warnings.aiml</learn>
+<learn>aiml/whatday_eng.aiml</learn>
+<learn>aiml/whatday_usa.aiml</learn>
+<learn>aiml/wordplay.aiml</learn>
+<learn>aiml/yomama.aiml</learn>
+<learn>aiml/tictactoe.aiml</learn>
 
-        <!-- Template is the response to the pattern -->
-        <!-- This learn an aiml file -->
-        <template>
-            <learn>basic.aiml</learn>
-            <learn>calendar.aiml</learn>
-            <learn>20q.aiml</learn>
-            <learn>battledome.aiml</learn>
-            <learn>binary.aiml</learn>
-            <learn>blackjack.aiml</learn>
-            <learn>bornin.aiml</learn>
-            <learn>botcompare.aiml</learn>
-            <learn>chatbots32.aiml</learn>
-            <learn>currency.aiml</learn>
-            <learn>jokes.aiml</learn>
-            <learn>horoscope.aiml</learn>
-            <learn>gender.aiml</learn>
-            <learn>daystoxmas.aiml</learn>
-            <learn>drphil.aiml</learn>
-            <learn>happy.aiml</learn>
-            <learn>learn.aiml</learn>
-            <learn>onthisday.aiml</learn>
-            <learn>warnings.aiml</learn>
-            <learn>whatday_eng.aiml</learn>
-            <learn>whatday_usa.aiml</learn>
-            <learn>wordplay.aiml</learn>
-            <learn>yomama.aiml</learn>
-            <learn>tictactoe.aiml</learn>
-            <learn>shutup.aiml</learn>
+<learn>aiml/standard/std-65percent.aiml</learn>
+<learn>aiml/standard/std-atomic.aiml</learn>
+<learn>aiml/standard/std-botmaster.aiml</learn>
+<learn>aiml/standard/std-brain.aiml</learn>
+<learn>aiml/standard/std-connect.aiml</learn>
+<learn>aiml/standard/std-dictionary.aiml</learn>
+<learn>aiml/standard/std-disconnect.aiml</learn>
+<learn>aiml/standard/std-dont.aiml</learn>
+<learn>aiml/standard/std-errors.aiml</learn>
+<learn>aiml/standard/std-gender.aiml</learn>
+<learn>aiml/standard/std-geography.aiml</learn>
+<learn>aiml/standard/std-german.aiml</learn>
+<learn>aiml/standard/std-gossip.aiml</learn>
+<learn>aiml/standard/std-hello.aiml</learn>
+<learn>aiml/standard/std-inactivity.aiml</learn>
+<learn>aiml/standard/std-inventions.aiml</learn>
+<learn>aiml/standard/std-knowledge.aiml</learn>
+<learn>aiml/standard/std-lizards.aiml</learn>
+<learn>aiml/standard/std-login.aiml</learn>
+<learn>aiml/standard/std-numbers.aiml</learn>
+<learn>aiml/standard/std-personality.aiml</learn>
+<learn>aiml/standard/std-pickup.aiml</learn>
+<learn>aiml/standard/std-politics.aiml</learn>
+<learn>aiml/standard/std-profile.aiml</learn>
+<learn>aiml/standard/std-religion.aiml</learn>
+<learn>aiml/standard/std-robot.aiml</learn>
+<learn>aiml/standard/std-sales.aiml</learn>
+<learn>aiml/standard/std-sextalk.aiml</learn>
+<learn>aiml/standard/std-sports.aiml</learn>
+<learn>aiml/standard/std-srai.aiml</learn>
+<learn>aiml/standard/std-suffixes.aiml</learn>
+<learn>aiml/standard/std-that.aiml</learn>
+<learn>aiml/standard/std-turing.aiml</learn>
+<learn>aiml/standard/std-yesno.aiml</learn>
 
 
+<!-- Load additional AIML set -->
+<learn>aiml/additional/computer.aiml</learn>
 
-            <!-- You can add more aiml files here -->
-            <!--<learn>more_aiml.aiml</learn>-->
-        </template>
-
-    </category>
+</template>
+</category>
 
 </aiml>
