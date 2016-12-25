@@ -1,6 +1,6 @@
 # chatbot-suchaku
 
-# a python 2.7 baased ai bot
+# a python 2.7 based ai bot
 
 To start
 
