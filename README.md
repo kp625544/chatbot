@@ -1,10 +1,10 @@
 # chatbot-suchaku
 
-# a python 2.7 based ai bot
+# A python 2.7 based ai bot
 
-#for ddownloading dependencies
+#For downloading dependencies
 
-sudo python2.7 -m pip install pyaudio pygeocoder aiml SpeechRecognition pyttsx virtualenvwrapper
+sudo python2.7 -m pip install -r requirements.txt
 
 #To start
 
